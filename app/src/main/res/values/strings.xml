@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecyclerviewAnimationsTransitions</string>
+    <string name="email_json_url">https://api.jsonbin.io/b/5c31a98d7b31f426f851d4e5</string>
+    <string name="transition_key">transition_key</string>
+    <string name="transition_dropdown_value">drop_down</string>
+    <string name="transition_slideleft_value">slide_left</string>
+    <string name="transition_slideright_value">slide_right</string>
+    <string name="transition_pushup_value">push_up</string>
+    <string name="transition_slidedown_value">slide_down</string>
+    <string name="transition_slideup_value">slide_up</string>
+</resources>

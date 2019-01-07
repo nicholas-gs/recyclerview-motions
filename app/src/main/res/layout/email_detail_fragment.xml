@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/email_detailfragment_container">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/emaildetail_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:transitionGroup="false">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/emaildetail_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:transitionGroup="false"
+            app:popupTheme="@style/Theme.AppCompat.Light">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/emaildetail_appbarlayout"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <RelativeLayout
+            android:id="@+id/emaildetail_headersection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="24dp">
+
+            <TextView
+                android:id="@+id/emaildetail_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="40dp"
+                android:singleLine="false"
+                android:text="Security Alert"
+                android:textColor="@color/colorFrom"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/emaildetail_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/ic_star_yellow_24dp" />
+
+        </RelativeLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLightGrey" />
+
+        <!-- Mid section -->
+
+        <RelativeLayout
+            android:id="@+id/emaildetail_midsection"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/emaildetail_imageview"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="1dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_pic" />
+
+            <LinearLayout
+                android:id="@+id/emaildetail_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="25dp"
+                android:layout_toEndOf="@id/emaildetail_imageview"
+                android:orientation="vertical"
+                android:paddingStart="12dp"
+                android:paddingEnd="0dp">
+
+                <TextView
+                    android:id="@+id/emaildetail_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:paddingBottom="0dp"
+                    android:singleLine="true"
+                    android:text="Title"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorFrom"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/emaildetail_recipient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="to me"
+                    android:textColor="@color/colorMessage"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/emaildetail_timestamp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="09/12/2018"
+                    android:textColor="@color/colorMessage"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/emaildetail_dots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/dots_vertical" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="8dp"
+                android:layout_toLeftOf="@id/emaildetail_dots"
+                android:src="@drawable/ic_reply_grey_24dp" />
+
+        </RelativeLayout>
+
+        <!-- Main body section -->
+
+        <TextView
+            android:id="@+id/emaildetail_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="12dp"
+            android:paddingTop="8dp"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

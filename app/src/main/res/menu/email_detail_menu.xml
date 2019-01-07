@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/emaildetail_archive"
+        android:icon="@drawable/ic_archive_grey_24dp"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/emaildetail_delete"
+        android:icon="@drawable/ic_delete_grey_24dp"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/emaildetail_newemail"
+        android:icon="@drawable/ic_email_grey_24dp"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/emaildetail_moveto"
+        android:title="Move to"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/emaildetail_snooze"
+        android:title="Snooze"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/emaildetail_changelabels"
+        android:title="Change labels"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/emaildetail_notimportant"
+        android:title="Mark as not important"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/emaildetail_mute"
+        android:title="Mute"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/emaildetail_Print"
+        android:title="Print"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/emaildetail_reportspam"
+        android:title="Report spam"
+        app:showAsAction="never" />
+</menu>

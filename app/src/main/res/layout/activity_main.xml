@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/main_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+            app:title="Main Menu" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_appbarlayout">
+
+        <Button
+            android:id="@+id/main_btn_splittransition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Split transition" />
+
+        <Button
+            android:id="@+id/main_btn_item_dropdown_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_btn_splittransition"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Drop Down Items" />
+
+        <Button
+            android:id="@+id/main_btn_item_slideleft_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_btn_item_dropdown_anim"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Slide left items" />
+
+        <Button
+            android:id="@+id/main_btn_item_slideright_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_btn_item_slideleft_anim"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Slide Right Items" />
+
+        <Button
+            android:id="@+id/main_btn_item_pushup_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_btn_item_slideright_anim"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Push Up Items" />
+
+        <Button
+            android:id="@+id/main_btn_item_slidedown_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_btn_item_pushup_anim"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Slide down Items" />
+
+        <Button
+            android:id="@+id/main_btn_item_slideup_anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_btn_item_slidedown_anim"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Slide up Items" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
