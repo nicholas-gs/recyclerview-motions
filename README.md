@@ -14,9 +14,9 @@ __Special thanks to [Ravi Tamada](https://api.androidhive.info/json/inbox.json) 
 
 ## Transition & Animations
 
-Split Transition | 
-:-----------------------:|:-----------------------:
-![split-transition-gif](https://user-images.githubusercontent.com/39665412/50748774-f3119480-1275-11e9-977b-b49d1b6d0122.gif)  | 
+|Split Transition |
+|-----------------------|
+|![split-transition-gif](https://user-images.githubusercontent.com/39665412/50748774-f3119480-1275-11e9-977b-b49d1b6d0122.gif)|
 
 Drop Down                  | Push Up
 :-------------------------:|:-------------------------:
