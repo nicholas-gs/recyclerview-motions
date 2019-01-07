@@ -6,7 +6,7 @@ RecyclerViews are an integral part of almost any Android app. Adding transitions
 
 This is a work in progress and more transitions & animations may be added.
 
-__Special thanks to [Ravi Tamada](https://api.androidhive.info/json/inbox.json) for the Json template.__
+__Special thanks to [Ravi Tamada](https://api.androidhive.info/json/inbox.json) for the Json template and profile picture icon by [Freepik](https://www.freepik.com/) from www.flaticon.com__
 
 <br>
 
@@ -45,7 +45,7 @@ Slide Left | Slide Right
 ```tex
 MIT License
 
-Copyright (c) 2018 Nicholas Gan
+Copyright (c) 2019 Nicholas Gan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
