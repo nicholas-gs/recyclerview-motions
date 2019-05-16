@@ -15,4 +15,9 @@
     <color name="colorLightGrey">#D3D3D3</color>
 
     <color name="btn_logut_bg">#ff6861</color>
+
+    // Slide and Fade
+    <color name="colorCardBackground">#f6f6f6</color>
+    <color name="colorTitleText">#258bd6</color>
+    <color name="colorContentText">#999da4</color>
 </resources>

@@ -7,12 +7,13 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.user.recyclerviewanimationstransitions.ItemAnimations.ItemAnimActivity;
+import com.example.user.recyclerviewanimationstransitions.SlideFade.SlideFadeActivity;
 import com.example.user.recyclerviewanimationstransitions.SplitTransitions.SplitTransitionActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button splitButton, dropDownButton, slideLeftButton, slideRightButton, pushUpButton,
-            slideDownButton, slideUpButton;
+            slideDownButton, slideUpButton, slideFadeButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         pushUpButton = findViewById(R.id.main_btn_item_pushup_anim);
         slideDownButton = findViewById(R.id.main_btn_item_slidedown_anim);
         slideUpButton = findViewById(R.id.main_btn_item_slideup_anim);
+        slideFadeButton = findViewById(R.id.main_btn_item_slidefade);
 
         splitButton.setOnClickListener(this);
         dropDownButton.setOnClickListener(this);
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         pushUpButton.setOnClickListener(this);
         slideDownButton.setOnClickListener(this);
         slideUpButton.setOnClickListener(this);
+        slideFadeButton.setOnClickListener(this);
     }
 
     @Override
@@ -72,6 +75,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.main_btn_item_slideup_anim:
                 intent = new Intent(this, ItemAnimActivity.class);
                 intent.putExtra(getString(R.string.transition_key), getString(R.string.transition_slideup_value));
+                startActivity(intent);
+                break;
+            case R.id.main_btn_item_slidefade:
+                intent = new Intent(this, SlideFadeActivity.class);
                 startActivity(intent);
                 break;
         }

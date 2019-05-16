@@ -88,6 +88,15 @@
             android:layout_marginTop="8dp"
             android:text="Slide up Items" />
 
+        <Button
+            android:id="@+id/main_btn_item_slidefade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/main_btn_item_slideup_anim"
+            android:layout_marginTop="8dp"
+            android:text="Slide &amp; Fade"/>
+
     </RelativeLayout>
 
 </RelativeLayout>
