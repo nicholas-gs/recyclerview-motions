@@ -7,16 +7,18 @@ RecyclerViews are an integral part of almost any Android app. Adding transitions
 This is a work in progress and more transitions & animations may be added.
 
 __Special thanks to [Ravi Tamada](https://api.androidhive.info/json/inbox.json) for the Json template and profile picture icon by [Freepik](https://www.freepik.com/) from www.flaticon.com__
-
+__Special thanks to [Aws Rh](https://www.youtube.com/watch?v=rJ-7KgMAJUo)
 <br>
 
 <img src="https://img.shields.io/badge/minSdkVersion-21-red.svg?style=true" alt="minSdkVersion 21" data-canonical-src="https://img.shields.io/badge/minSdkVersion-24-red.svg?style=true" style="max-width:100%;"> <img src=https://img.shields.io/badge/compileSdkVersion-28-brightgreen.svg alt="compileSdkVersion 28" data-canonical-src="https://img.shields.io/badge/compileSdkVersion-28-green.svg?style=true" style="max-width:100%;">
 
 ## Transition & Animations
 
-|Split Transition |
-|-----------------------|
-|![split-transition-gif](https://user-images.githubusercontent.com/39665412/50748774-f3119480-1275-11e9-977b-b49d1b6d0122.gif)|
+
+Split Transition        | Slide and Fade
+:-----------------------|:---------------------:
+![split-transition-gif](https://user-images.githubusercontent.com/39665412/50748774-f3119480-1275-11e9-977b-b49d1b6d0122.gif)|![slide-fade](https://user-images.githubusercontent.com/39665412/57829008-26de6700-77e0-11e9-97e0-0bf80137a49b.gif)
+
 
 Drop Down                  | Push Up
 :-------------------------:|:-------------------------:
